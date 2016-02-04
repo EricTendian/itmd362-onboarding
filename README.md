@@ -16,6 +16,4 @@ By analyzing the IM conversations a person has had throughout their digital life
 
 In this onboarding project, I will create a page where people can sign up to be a beta tester of my chat analysis software. This software will calculate many of the statistics above from Facebook chat data. I will need to ensure that users' privacy is honored, and convey that in the onboarding process. By the end of it, users will not necessarily receive the software to beta test, but will be on a waiting list.
 
-Mockups of the process:
-
-[coming soon]
+## [Mockups](https://app.moqups.com/erictendian@gmail.com/Z6At88UBTb/view)
