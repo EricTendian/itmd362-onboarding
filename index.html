@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
+</script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,121 +21,155 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#">Chatlytics</a></li>
-                    <li><a href="#statistics">Statistics</a></li>
-                    <li><a href="#analysis">Analysis</a></li>
-                    <li><a href="#privacy">Privacy</a></li>
-                    <li><a href="#signup">Sign Up</a></li>
+                    <li class="can-hide">
+                        <a href="#"><strong>Chatlytics</strong></a>
+                    </li>
+                    <li>
+                        <a href="#statistics">Statistics</a>
+                    </li>
+                    <li>
+                        <a href="#analysis">Analysis</a>
+                    </li>
+                    <li>
+                        <a href="#privacy">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#signup">Sign Up</a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <section class="hero">
-                <h1>Chatlytics</h1>
-                <h2>Curious about your own communication habits in a digital medium? Study your past communications through a people-centric lens.</h2>
-                <a href="#signup" class="button">Sign up for the beta</a>
-                <p>Instant messaging (IM) has been around for over a decade, so it is more than technology of the present. It is a record of our past, stored on sites like Facebook and Google. This is a particularly interesting technology because it is written communication with no time delay, which has not existed before in human history.</p>
-                <p>By analyzing the IM conversations a person has had throughout their digital life, one can build a statistical model of a relationship online. This is useful to digital anthropologists and other researchers as they can gain a deeper understanding of how friendships are maintained online.</p>
-                <p><strong>Chatlytics will give researchers and curious social media users the tools to perform such an analysis of this new communication form without costly and complex software.</strong></p>
+                <div class="container">
+                    <h1>Chatlytics</h1>
+                    <h2>Curious about your own communication habits in a digital medium? Study your past communications through a people-centric lens.</h2>
+                     <a href="#signup" class="button">Sign up for the beta</a>
+                     <p>Instant messaging (IM) has been around for over a decade, so it is more than technology of the present. It is a record of our past, stored on sites like Facebook and Google. This is a particularly interesting technology because it is written communication with no time delay, which has not existed before in human history.</p>
+                     <p>By analyzing the IM conversations a person has had throughout their digital life, one can build a statistical model of a relationship online. This is useful to digital anthropologists and other researchers as they can gain a deeper understanding of how friendships are maintained online.</p>
+                     <p><strong>Chatlytics will give researchers and curious social media users the tools to perform such an analysis of this new communication form without costly and complex software.</strong></p>
+                </div>
             </section>
             <section id="statistics">
-                <div class="feature">
-                    <h2><i class="fa fa-facebook-official fa-2x"></i> Facebook Chat statistics</h2>
-                    <p>After you import your exported Facebook chat history into our software, you get access to a variety of metrics on how you interact online. Chat activity per person, average reply time, changes in activity, and more.</p>
-                </div>
-                <div class="graphic">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Msgs. in 2013</th>
-                                <th>Msgs. in 2014</th>
-                                <th>Msgs. in 2015</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>John Doe</td>
-                                <td>4124</td>
-                                <td>1353</td>
-                                <td>2412</td>
-                            </tr>
-                            <tr>
-                                <td>Jane Doe</td>
-                                <td>5135</td>
-                                <td>2444</td>
-                                <td>3552</td>
-                            </tr>
-                            <tr>
-                                <td>Bob Smith</td>
-                                <td>3523</td>
-                                <td>4333</td>
-                                <td>4012</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="container flex">
+                    <div class="feature">
+                        <h2><i class="fa fa-facebook-official fa-2x"></i> Facebook Chat statistics</h2>
+                        <p>After you import your exported Facebook chat history into our software, you get access to a variety of metrics on how you interact online. Chat activity per person, average reply time, changes in activity, and more.</p>
+                    </div>
+                    <div class="graphic">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Msgs. in 2013</th>
+                                    <th>Msgs. in 2014</th>
+                                    <th>Msgs. in 2015</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>4124</td>
+                                    <td>1353</td>
+                                    <td>2412</td>
+                                </tr>
+                                <tr>
+                                    <td>Jane Doe</td>
+                                    <td>5135</td>
+                                    <td>2444</td>
+                                    <td>3552</td>
+                                </tr>
+                                <tr>
+                                    <td>Bob Smith</td>
+                                    <td>3523</td>
+                                    <td>4333</td>
+                                    <td>4012</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </section>
             <section id="analysis">
-                <div class="graphic">
-                    <i class="fa fa-pie-chart fa-5x"></i><br>
-                    <i class="fa fa-bar-chart fa-5x"></i>
-                </div>
-                <div class="feature">
-                    <h2>Understand how you communicate</h2>
-                    <p>With your chat history our software can help you understand what you commonly say, and even come up with a sentence we think you would have said! The data also allows for more traditional analysis such as word and phrase counts. Other statistics include chat activity per day.</p>
+                <div class="container flex">
+                    <div class="graphic">
+                        <i class="fa fa-pie-chart fa-5x"></i><br>
+                        <i class="fa fa-bar-chart fa-5x"></i>
+                    </div>
+                    <div class="feature">
+                        <h2>Understand how you communicate</h2>
+                        <p>With your chat history our software can help you understand what you commonly say, and even come up with a sentence we think you would have said! The data also allows for more traditional analysis such as word and phrase counts. Other statistics include chat activity per day.</p>
+                    </div>
                 </div>
             </section>
             <section id="privacy">
-                <div class="feature">
-                    <h2>We respect your privacy</h2>
-                    <p>We recognize that chat history is very sensitive, so we want to reassure you that it is never leaves the safety of your own computer. You download our application instead of going to some website and uploading your chat history. We will never collect information about you and store it in the cloud or anywhere else on the Internet. Your personal data remains in your control.</p>
-                    <p>When the beta is launched, we will make the code open-source so anyone can inspect it to their heart's content.</p>
-                </div>
-                <div class="graphic">
-                    <div id="notallowed"><i class="fa fa-user-secret fa-5x"></i></div>
+                <div class="container flex">
+                    <div class="feature">
+                        <h2>We respect your privacy</h2>
+                        <p>We recognize that chat history is very sensitive, so we want to reassure you that it is never leaves the safety of your own computer. You download our application instead of going to some website and uploading your chat history. We will never collect information about you and store it in the cloud or anywhere else on the Internet. Your personal data remains in your control.</p>
+                        <p>When the beta is launched, we will make the code open-source so anyone can inspect it to their heart's content.</p>
+                    </div>
+                    <div class="graphic">
+                        <div id="notallowed"><i class="fa fa-user-secret fa-5x"></i></div>
+                    </div>
                 </div>
             </section>
             <section id="signup">
-                <h2>Sign up for the beta</h2>
-                <form>
-                    <div>
-                        <label>
-                            Email address *
-                            <input type="email" name="email" placeholder="test@example.com">
-                        </label>
-                        <label>
-                            Name
-                            <input type="text" name="name" placeholder="Jane Doe">
-                        </label>
-                        <label>
-                            Operating system you want the beta released on first:
-                            <select>
-                                <option>Windows 7/8/10</option>
-                                <option>Mac OS X (10.6+)</option>
-                                <option>GNU/Linux</option>
-                            </select>
-                        </label>
+                <div class="container">
+                    <div class="flex">
+                        <div><h2>Sign up for the beta</h2></div>
                     </div>
-                    <div>
-                        <label>
-                            Additional comments or questions:
-                            <textarea name="comments" rows="10" cols="50"></textarea>
-                        </label>
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
+                    <form class="flex" method="post">
+                        <div>
+                            <label>
+                                Email address *
+                                <input type="email" name="email" placeholder="test@example.com">
+                            </label>
+                            <label>
+                                Name
+                                <input type="text" name="name" placeholder="Jane Doe">
+                            </label>
+                            <fieldset>
+                                <legend>Operating system you want the beta released on first:</legend>
+                                <label>
+                                    <input type="radio" name="os" value="windows">
+                                    Windows 7/8/10
+                                </label>
+                                <label>
+                                    <input type="radio" name="os" value="mac">
+                                    Mac OS X (10.6+)
+                                </label>
+                                <label>
+                                    <input type="radio" name="os" value="linux">
+                                    GNU/Linux
+                                </label>
+                            </fieldset>
+                            <input type="submit" value="Submit">
+                        </div>
+                        <div>
+                            <label>
+                                Additional comments or questions:
+                                <textarea name="comments"></textarea>
+                            </label>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
         <footer>
-            <p>Chatlytics is currently in early development. Help promote our beta signup if you want to try this software for yourself sooner.</p>
-            <p>Copyright &copy; 2016 Eric Tendian</p>
+            <div class="container">
+                <p>Chatlytics is currently in early development. Help promote our beta signup if you want to try this software for yourself sooner.</p>
+                <p>Copyright &copy; 2016 Eric Tendian</p>
+            </div>
         </footer>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
+</script>
+        <script src="js/main.js">
+</script>
 
         <!-- Google Analytics goes here -->
     </body>
