@@ -16,6 +16,7 @@ body, button, input, select, textarea {
 .container {
     max-width: 55em;
     margin: 0 auto;
+    position: relative;
 }
 
 .flex {
@@ -31,13 +32,22 @@ main {
     margin-top: 2em;
 }
 
-img.responsive {
-    max-width: 100%;
-    height: auto;
+section p {
+    line-height: 1.75;
+}
+
+.graphic {
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    display: flex;
+}
+
+.graphic > img {
+    width: auto;
+    height: 10em;
     display: block;
-    width: 12em;
-    margin: 2em auto;
-    vertical-align: middle;
+    resize: both;
 }
 
 
@@ -51,6 +61,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 9999;
 }
 nav > ul {
     margin: 0 auto;
@@ -199,14 +210,9 @@ fieldset label {
         flex: 1 65%;
     }
     .flex > .graphic {
-        flex: 1 35%;
+        flex: 1 45%;
     }
     section#signup form div:last-child input[type="submit"] {
         display: none;
     }
-}
-
-
-td, th {
-    padding: 0.5em 1em;
 }
