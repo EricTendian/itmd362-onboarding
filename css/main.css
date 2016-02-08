@@ -31,6 +31,15 @@ main {
     margin-top: 2em;
 }
 
+img.responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 12em;
+    margin: 2em auto;
+    vertical-align: middle;
+}
+
 
 /* =================
    Section-specific styles
@@ -68,12 +77,12 @@ nav li > a.active {
 }
 /* HEADER END */
 
-/* HERO START */
-section.hero {
-    background: #75a9f9;
+/* INTRO START */
+section#intro {
+    background: #8CB0E8;
     padding: 2em;
 }
-section.hero h1 {
+section#intro h1 {
     margin: 0;
     text-align: center;
 }
@@ -93,7 +102,7 @@ a.button:hover, a.button:active {
     background: #222;
     color: #fff;
 }
-/* HERO END */
+/* INTRO END */
 
 /* ANALYSIS START */
 section#analysis {
@@ -195,4 +204,9 @@ fieldset label {
     section#signup form div:last-child input[type="submit"] {
         display: none;
     }
+}
+
+
+td, th {
+    padding: 0.5em 1em;
 }
