@@ -178,7 +178,7 @@ fieldset {
     padding: 0;
 }
 
-input[type="radio"] {
+input[type="checkbox"] {
     display: inline;
 }
 
