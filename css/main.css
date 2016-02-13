@@ -113,6 +113,9 @@ a.button:hover, a.button:active {
     background: #222;
     color: #fff;
 }
+.text-bold {
+    font-weight: bold;
+}
 /* INTRO END */
 
 /* ANALYSIS START */
