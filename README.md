@@ -25,7 +25,7 @@ I used the following resources in this site:
 - [normalize.css](https://necolas.github.io/normalize.css/)
 - [Font Awesome](https://fortawesome.github.io/Font-Awesome/) for various icons
 - [Modernizr](https://modernizr.com/)
-- [jQuery 2.x](http://jquery.com/)
+- [Sprint.js](https://github.com/bendc/sprint), a lightweight jQuery alternative
 - ["Network" icon](https://thenounproject.com/term/network/195994/) from The Noun Project by Meaghan Hendricks
 - ["Privacy" icon](https://thenounproject.com/term/privacy/230478/) from The Noun Project by Gregor Črešnar
 - [Google Forms](https://www.google.com/forms/about/) for my sign-up form destination
