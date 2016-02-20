@@ -8,3 +8,18 @@ $(window).on('scroll', function() {
     }
   });
 });
+
+$('form').on('submit', function (event) {
+  event.preventDefault();
+  $(this).find('input').attr('disabled', 'disabled');
+  $(this).find('select').attr('disabled', 'disabled');
+  $(this).find('textarea').attr('disabled', 'disabled');
+  var xhr = new XMLHttpRequest();
+  xhr.onload = function() {
+    alert('Thanks for signing up!');
+  };
+  xhr.open($(this).attr('method'), $(this).attr('action'), true);
+  var formdata = new FormData($(this).dom[0]);
+  xhr.send(formdata);
+  return false;
+});
