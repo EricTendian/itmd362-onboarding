@@ -28,6 +28,6 @@ I used the following resources in this site:
 - [Sprint.js](https://github.com/bendc/sprint), a lightweight jQuery alternative
 - ["Network" icon](https://thenounproject.com/term/network/195994/) from The Noun Project by Meaghan Hendricks
 - ["Privacy" icon](https://thenounproject.com/term/privacy/230478/) from The Noun Project by Gregor Črešnar
-- [Google Forms](https://www.google.com/forms/about/) for my sign-up form destination
+- Google Sheets/Scripts for my sign-up form destination using the tutorial "[Send Email from a Static HTML Form using Google Apps Mail!](https://github.com/dwyl/html-form-send-email-via-google-script-without-server)"
 
 Open an issue if you see a resource being used that is not credited here.
