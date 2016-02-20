@@ -90,33 +90,35 @@
                         <div><h2>Sign up for the beta</h2></div>
                     </div>
                     <!-- need to remove target and use AJAX for submission -->
-                    <form class="flex" method="post" action="https://script.google.com/macros/s/AKfycbyTUZO0Wb6yZXTgJiaR6-jXJreCC0lGIzKyoYX8RJAOEh4ulrL5/exec">
-                        <div>
-                            <label for="email">Email address *</label>
-                            <input type="email" name="email" id="email" placeholder="test@example.com" required>
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Jane Doe">
-                            <fieldset>
-                                <legend>Operating system you want to test the beta on:</legend>
-                                <label>
-                                    <input type="checkbox" name="os" value="Windows 7/8/10">
-                                    Windows 7/8/10
-                                </label>
-                                <label>
-                                    <input type="checkbox" name="os" value="Mac OS X (10.6+)">
-                                    Mac OS X (10.6+)
-                                </label>
-                                <label>
-                                    <input type="checkbox" name="os" value="GNU/Linux">
-                                    GNU/Linux
-                                </label>
-                            </fieldset>
+                    <form method="post" action="https://script.google.com/macros/s/AKfycbyTUZO0Wb6yZXTgJiaR6-jXJreCC0lGIzKyoYX8RJAOEh4ulrL5/exec">
+                        <div class="flex">
+                            <div>
+                                <label for="email">Email address *</label>
+                                <input type="email" name="email" id="email" placeholder="test@example.com" required aria-required="true">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="Jane Doe">
+                                <fieldset>
+                                    <legend>Operating system you want to test the beta on:</legend>
+                                    <label>
+                                        <input type="checkbox" name="os" value="Windows 7/8/10">
+                                        Windows 7/8/10
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" name="os" value="Mac OS X (10.6+)">
+                                        Mac OS X (10.6+)
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" name="os" value="GNU/Linux">
+                                        GNU/Linux
+                                    </label>
+                                </fieldset>
+                            </div>
+                            <div>
+                                <label for="comments">Additional comments or questions:</label>
+                                <textarea name="comments" id="comments"></textarea>
+                            </div>
                         </div>
-                        <div>
-                            <label for="comments">Additional comments or questions:</label>
-                            <textarea name="comments" id="comments"></textarea>
-                            <input type="submit" value="Submit">
-                        </div>
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
             </section>

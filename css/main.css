@@ -202,7 +202,6 @@ form textarea {
 
 fieldset {
     border: none;
-    margin: 0 0 2em 0;
     padding: 0;
 }
 
@@ -234,6 +233,7 @@ form input[type="submit"] {
     background: #fff;
     border: none;
     box-shadow: none;
+    margin: 0 1em 1em;
 }
 
 form input[type="submit"]:hover {
@@ -267,15 +267,5 @@ form input[type="submit"]:hover {
     }
     .flex > .graphic {
         flex: 1 45%;
-    }
-
-    /* There is probably a better way to do this */
-    form.flex > div:first-child {
-        padding-bottom: 1.5em;
-    }
-    form.flex > div:nth-child(2) input[type="submit"] {
-        position: absolute;
-        left: 1em;
-        bottom: 1.5em;
     }
 }
